@@ -53,8 +53,8 @@
 			<ol class="carousel-indicators">
 				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item crs-img-1 active">
@@ -68,7 +68,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item crs-img-2">
+				<div class="carousel-item ">
 					<div class="container">
 						<div class="carousel-caption mb-5 text-center">
 							<h2 class="display-4 text-light">Heading Two</h2>
@@ -79,7 +79,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item crs-img-3">
+				<div class="carousel-item ">
 					<div class="container">
 						<div class="carousel-caption pb-5 mb-5 text-right">
 							<h2 class="display-4 text-light">Heading Three</h2>
@@ -90,7 +90,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="carousel-item crs-img-4">
+				<div class="carousel-item ">
 					<div class="container">
 						<div class="carousel-caption pb-5 mb-5 text-left">
 							<h2 class="display-4 text-light">Heading Four</h2>
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 			</div>
-			<a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+			<a href="#myCarousel" class="carousel-control-prev" data-slide="next">
 				<span class="carousel-control-prev-icon"></span>
 			</a>
 			<a href="#myCarousel" class="carousel-control-next" data-slide="next">
@@ -172,25 +172,24 @@
 	</section>
 	<!-- Info Section End -->
 
-	<!-- Video Section Start -->
-	<section id="video" class="text-center text-light">
-		<div class="video-overlay">
-			<div class="container">
-				<div class="row">
-					<div class="col mt-5 pt-4">
-						<div uk-lightbox>
-							<a href="https://youtu.be/uVqv7vIKOwM">
-								<i class="fas fa-play"></i>
-							</a>
-						</div>
-						<h2 class=" mt-5 text-light">Hack The Planet</h2>
-						<p class="lead">Click Play Button To See</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Video Section End -->
+<!-- Video Section Start -->
+<section id="video" class="text-center text-light">
+    <div >
+        <div class="container">
+            <div class="row">
+                <div class="col mt-5 pt-4">
+                    <div uk-lightbox>
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <h2 class=" mt-5 text-light">Hack The Planet</h2>
+                    <p class="lead">Click Play Button To See</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Video Section End -->
+
 
 	<!-- Gallery Section Start -->
 	<section id="gallery" class="py-5" uk-lightbox>
@@ -268,7 +267,7 @@
 					<form class="form-inline justify-content-center ">
 						<input type="text" placeholder="Enter name" class="form-control m-2">
 						<input type="email" placeholder="Enter email" class="form-control m-2">
-						<input type="submit" value="Subscribe" class=" btn btn-primary m-2">
+						<input type="button" value="Subscribe" class=" btn btn-primary m-2">
 					</form>
 				</div>
 			</div>
@@ -316,3 +315,4 @@
 	<script type="text/javascript" src="js/uikit-icons.min.js"></script>
 </body>
 </html>
+
